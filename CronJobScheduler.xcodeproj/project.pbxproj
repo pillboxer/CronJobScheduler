@@ -16,7 +16,6 @@
 		862E124E286DA35F001FC028 /* CronJobDisplayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E1246286D989F001FC028 /* CronJobDisplayInfo.swift */; };
 		86B49411286DA72800B0C4EC /* CronJobFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F4C286C8FC9007BC25B /* CronJobFormatter.swift */; };
 		86B49412286DA74200B0C4EC /* Calendar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F51286C932B007BC25B /* Calendar+Extensions.swift */; };
-		86B49413286DA7B400B0C4EC /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E1248286D9D03001FC028 /* XCTestCase+Extensions.swift */; };
 		86B49415286DAA6600B0C4EC /* CronJobStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B49414286DAA6600B0C4EC /* CronJobStep.swift */; };
 		86D14F20286C4E42007BC25B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F1F286C4E42007BC25B /* main.swift */; };
 		86D14F2D286C4E60007BC25B /* CronJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F2C286C4E60007BC25B /* CronJobTests.swift */; };
@@ -286,7 +285,6 @@
 				86D14F39286C5586007BC25B /* Localizable.strings in Sources */,
 				86D14F50286C9181007BC25B /* CronJobInstruction.swift in Sources */,
 				86D14F47286C6509007BC25B /* CronJobError.swift in Sources */,
-				86B49413286DA7B400B0C4EC /* XCTestCase+Extensions.swift in Sources */,
 				86D14F44286C58C9007BC25B /* CronJobParser.swift in Sources */,
 				86D14F52286C932B007BC25B /* Calendar+Extensions.swift in Sources */,
 				862E1247286D989F001FC028 /* CronJobDisplayInfo.swift in Sources */,

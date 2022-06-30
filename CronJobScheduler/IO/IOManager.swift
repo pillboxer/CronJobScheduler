@@ -28,6 +28,10 @@ class IOManager: ObservableObject {
         os_log(.debug, "Logging step: %@", step.rawValue.capitalized)
     }
     
+    func output(_ info: CronJobDisplayInfo) {
+        os_log(.default, "Outputting instruction: %@", info.description)
+    }
+    
     func handleError(_ error: CronJobError) {
         output(error.localizedDescription, of: .error)
     }

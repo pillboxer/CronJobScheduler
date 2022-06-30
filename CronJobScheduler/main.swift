@@ -40,7 +40,7 @@ private func subscribeToFormatter(formatting instructions: [CronJobInstruction])
     formatter.format(instructions)
         .sink { infos in
             for info in infos {
-                print(info.description)
+                io.output(info)
             }
         }
         .store(in: &subscriptions)
