@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  CronJobScheduler
+
+  Created by Henry Cooper on 29/06/2022.
+  
+*/
+
+"cron_job_scheduler_usage" = "Cron Job Scheduler:
+        
+**************************** USAGE *****************************
+*                                                              *
+* (Double) minutes_past (Int) hour (String) path_to_executable *
+*                                                              *
+****************************************************************
+
+minutes_past -> Double between 0-59.9
+hour -> Int between 0-23
+path_to_executable -> The executable to run at the given time
+
+Either of the first two arguments may be replaced with wildcard values (\"*\"), resulting in the given job being run at every minute or hour respectively
+
+";
+"cron_job_parser_error_incorrect_argument_count" = "The Cron Job Scheduler expects three arguments when %@ were provided";
+"cron_job_parser_error_invalid_minutes" = "The Cron Job Scheduler expects minutes_past to be an Int in the range of 0-60 or a \"*\"";
+"cron_job_parser_error_invalid_hour" = "The Cron Job Scheduler expects hour to be an Int in the range of 0-23 or a \"*\"";
+

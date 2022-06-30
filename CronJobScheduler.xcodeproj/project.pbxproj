@@ -7,7 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862E1247286D989F001FC028 /* CronJobDisplayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E1246286D989F001FC028 /* CronJobDisplayInfo.swift */; };
+		862E1249286D9D03001FC028 /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E1248286D9D03001FC028 /* XCTestCase+Extensions.swift */; };
+		862E124A286D9EF1001FC028 /* CronJobParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F43286C58C9007BC25B /* CronJobParser.swift */; };
+		862E124B286D9EFE001FC028 /* CronJobError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F46286C6509007BC25B /* CronJobError.swift */; };
+		862E124C286D9F22001FC028 /* CronJobInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F4F286C9181007BC25B /* CronJobInstruction.swift */; };
+		862E124D286D9F4C001FC028 /* CronJobTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F55286CA519007BC25B /* CronJobTimeManager.swift */; };
+		862E124E286DA35F001FC028 /* CronJobDisplayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E1246286D989F001FC028 /* CronJobDisplayInfo.swift */; };
+		86B49411286DA72800B0C4EC /* CronJobFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F4C286C8FC9007BC25B /* CronJobFormatter.swift */; };
+		86B49412286DA74200B0C4EC /* Calendar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F51286C932B007BC25B /* Calendar+Extensions.swift */; };
+		86B49413286DA7B400B0C4EC /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E1248286D9D03001FC028 /* XCTestCase+Extensions.swift */; };
+		86B49415286DAA6600B0C4EC /* CronJobStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B49414286DAA6600B0C4EC /* CronJobStep.swift */; };
 		86D14F20286C4E42007BC25B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F1F286C4E42007BC25B /* main.swift */; };
+		86D14F2D286C4E60007BC25B /* CronJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F2C286C4E60007BC25B /* CronJobTests.swift */; };
+		86D14F32286C4F49007BC25B /* IOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F31286C4F49007BC25B /* IOManager.swift */; };
+		86D14F39286C5586007BC25B /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F38286C5555007BC25B /* Localizable.strings */; };
+		86D14F3E286C5756007BC25B /* CronJobTestsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F3D286C5756007BC25B /* CronJobTestsModel.swift */; };
+		86D14F41286C5887007BC25B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F40286C5887007BC25B /* String+Extensions.swift */; };
+		86D14F44286C58C9007BC25B /* CronJobParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F43286C58C9007BC25B /* CronJobParser.swift */; };
+		86D14F47286C6509007BC25B /* CronJobError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F46286C6509007BC25B /* CronJobError.swift */; };
+		86D14F4D286C8FC9007BC25B /* CronJobFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F4C286C8FC9007BC25B /* CronJobFormatter.swift */; };
+		86D14F50286C9181007BC25B /* CronJobInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F4F286C9181007BC25B /* CronJobInstruction.swift */; };
+		86D14F52286C932B007BC25B /* Calendar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F51286C932B007BC25B /* Calendar+Extensions.swift */; };
+		86D14F56286CA519007BC25B /* CronJobTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D14F55286CA519007BC25B /* CronJobTimeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,12 +45,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		862E1246286D989F001FC028 /* CronJobDisplayInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobDisplayInfo.swift; sourceTree = "<group>"; };
+		862E1248286D9D03001FC028 /* XCTestCase+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extensions.swift"; sourceTree = "<group>"; };
+		86B49414286DAA6600B0C4EC /* CronJobStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobStep.swift; sourceTree = "<group>"; };
 		86D14F1C286C4E42007BC25B /* CronJobScheduler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CronJobScheduler; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D14F1F286C4E42007BC25B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		86D14F2A286C4E60007BC25B /* CronJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CronJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D14F2C286C4E60007BC25B /* CronJobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobTests.swift; sourceTree = "<group>"; };
+		86D14F31286C4F49007BC25B /* IOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOManager.swift; sourceTree = "<group>"; };
+		86D14F37286C5555007BC25B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		86D14F3D286C5756007BC25B /* CronJobTestsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobTestsModel.swift; sourceTree = "<group>"; };
+		86D14F40286C5887007BC25B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		86D14F43286C58C9007BC25B /* CronJobParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobParser.swift; sourceTree = "<group>"; };
+		86D14F46286C6509007BC25B /* CronJobError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobError.swift; sourceTree = "<group>"; };
+		86D14F4C286C8FC9007BC25B /* CronJobFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobFormatter.swift; sourceTree = "<group>"; };
+		86D14F4F286C9181007BC25B /* CronJobInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobInstruction.swift; sourceTree = "<group>"; };
+		86D14F51286C932B007BC25B /* Calendar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extensions.swift"; sourceTree = "<group>"; };
+		86D14F55286CA519007BC25B /* CronJobTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobTimeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		86D14F19286C4E42007BC25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D14F27286C4E60007BC25B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				86D14F1E286C4E42007BC25B /* CronJobScheduler */,
+				86D14F2B286C4E60007BC25B /* CronJobTests */,
 				86D14F1D286C4E42007BC25B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				86D14F1C286C4E42007BC25B /* CronJobScheduler */,
+				86D14F2A286C4E60007BC25B /* CronJobTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +103,94 @@
 		86D14F1E286C4E42007BC25B /* CronJobScheduler */ = {
 			isa = PBXGroup;
 			children = (
+				86D14F53286CA503007BC25B /* Time  */,
+				86D14F4E286C9177007BC25B /* Models */,
+				86D14F33286C50A4007BC25B /* IO */,
+				86D14F42286C58BF007BC25B /* Parser */,
+				86D14F4B286C8FB4007BC25B /* Formatter */,
+				86D14F45286C64FF007BC25B /* Error */,
+				86D14F3F286C587B007BC25B /* Extensions */,
+				86D14F34286C50AC007BC25B /* Strings */,
 				86D14F1F286C4E42007BC25B /* main.swift */,
 			);
 			path = CronJobScheduler;
+			sourceTree = "<group>";
+		};
+		86D14F2B286C4E60007BC25B /* CronJobTests */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F2C286C4E60007BC25B /* CronJobTests.swift */,
+				86D14F3D286C5756007BC25B /* CronJobTestsModel.swift */,
+				862E1248286D9D03001FC028 /* XCTestCase+Extensions.swift */,
+			);
+			path = CronJobTests;
+			sourceTree = "<group>";
+		};
+		86D14F33286C50A4007BC25B /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F31286C4F49007BC25B /* IOManager.swift */,
+			);
+			path = IO;
+			sourceTree = "<group>";
+		};
+		86D14F34286C50AC007BC25B /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F38286C5555007BC25B /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		86D14F3F286C587B007BC25B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F40286C5887007BC25B /* String+Extensions.swift */,
+				86D14F51286C932B007BC25B /* Calendar+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		86D14F42286C58BF007BC25B /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F43286C58C9007BC25B /* CronJobParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		86D14F45286C64FF007BC25B /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F46286C6509007BC25B /* CronJobError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		86D14F4B286C8FB4007BC25B /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F4C286C8FC9007BC25B /* CronJobFormatter.swift */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		86D14F4E286C9177007BC25B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F4F286C9181007BC25B /* CronJobInstruction.swift */,
+				862E1246286D989F001FC028 /* CronJobDisplayInfo.swift */,
+				86B49414286DAA6600B0C4EC /* CronJobStep.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86D14F53286CA503007BC25B /* Time  */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F55286CA519007BC25B /* CronJobTimeManager.swift */,
+			);
+			path = "Time ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +213,23 @@
 			productReference = 86D14F1C286C4E42007BC25B /* CronJobScheduler */;
 			productType = "com.apple.product-type.tool";
 		};
+		86D14F29286C4E60007BC25B /* CronJobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D14F2E286C4E60007BC25B /* Build configuration list for PBXNativeTarget "CronJobTests" */;
+			buildPhases = (
+				86D14F26286C4E60007BC25B /* Sources */,
+				86D14F27286C4E60007BC25B /* Frameworks */,
+				86D14F28286C4E60007BC25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CronJobTests;
+			productName = CronJobTests;
+			productReference = 86D14F2A286C4E60007BC25B /* CronJobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +241,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					86D14F1B286C4E42007BC25B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					86D14F29286C4E60007BC25B = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -111,20 +262,71 @@
 			projectRoot = "";
 			targets = (
 				86D14F1B286C4E42007BC25B /* CronJobScheduler */,
+				86D14F29286C4E60007BC25B /* CronJobTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86D14F28286C4E60007BC25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86D14F18286C4E42007BC25B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D14F41286C5887007BC25B /* String+Extensions.swift in Sources */,
+				86D14F39286C5586007BC25B /* Localizable.strings in Sources */,
+				86D14F50286C9181007BC25B /* CronJobInstruction.swift in Sources */,
+				86D14F47286C6509007BC25B /* CronJobError.swift in Sources */,
+				86B49413286DA7B400B0C4EC /* XCTestCase+Extensions.swift in Sources */,
+				86D14F44286C58C9007BC25B /* CronJobParser.swift in Sources */,
+				86D14F52286C932B007BC25B /* Calendar+Extensions.swift in Sources */,
+				862E1247286D989F001FC028 /* CronJobDisplayInfo.swift in Sources */,
+				86D14F56286CA519007BC25B /* CronJobTimeManager.swift in Sources */,
 				86D14F20286C4E42007BC25B /* main.swift in Sources */,
+				86B49415286DAA6600B0C4EC /* CronJobStep.swift in Sources */,
+				86D14F32286C4F49007BC25B /* IOManager.swift in Sources */,
+				86D14F4D286C8FC9007BC25B /* CronJobFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D14F26286C4E60007BC25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862E124B286D9EFE001FC028 /* CronJobError.swift in Sources */,
+				862E124A286D9EF1001FC028 /* CronJobParser.swift in Sources */,
+				86B49411286DA72800B0C4EC /* CronJobFormatter.swift in Sources */,
+				862E124E286DA35F001FC028 /* CronJobDisplayInfo.swift in Sources */,
+				862E124C286D9F22001FC028 /* CronJobInstruction.swift in Sources */,
+				86D14F2D286C4E60007BC25B /* CronJobTests.swift in Sources */,
+				862E1249286D9D03001FC028 /* XCTestCase+Extensions.swift in Sources */,
+				86B49412286DA74200B0C4EC /* Calendar+Extensions.swift in Sources */,
+				86D14F3E286C5756007BC25B /* CronJobTestsModel.swift in Sources */,
+				862E124D286D9F4C001FC028 /* CronJobTimeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86D14F38286C5555007BC25B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86D14F37286C5555007BC25B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		86D14F21286C4E42007BC25B /* Debug */ = {
@@ -262,6 +464,36 @@
 			};
 			name = Release;
 		};
+		86D14F2F286C4E60007BC25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUT4ATB28X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixeye.CronJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		86D14F30286C4E60007BC25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUT4ATB28X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixeye.CronJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +511,15 @@
 			buildConfigurations = (
 				86D14F24286C4E42007BC25B /* Debug */,
 				86D14F25286C4E42007BC25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D14F2E286C4E60007BC25B /* Build configuration list for PBXNativeTarget "CronJobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D14F2F286C4E60007BC25B /* Debug */,
+				86D14F30286C4E60007BC25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
