@@ -8,9 +8,9 @@
 import Combine
 import Foundation
 
-var subscriptions: Set<AnyCancellable> = []
-
+private var subscriptions: Set<AnyCancellable> = []
 private let io = IOManager()
+
 io.start()
 subscribeToInput()
 
@@ -45,5 +45,3 @@ private func subscribeToFormatter(formatting instructions: [CronJobInstruction])
         }
         .store(in: &subscriptions)
 }
-
-
